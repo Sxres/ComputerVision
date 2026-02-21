@@ -1,4 +1,5 @@
 # Image Processor
+![Python](https://img.shields.io/badge/python-3.10+-blue) ![OpenCV](https://img.shields.io/badge/opencv-4.x-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 <table>
   <tr>
     <td><img src="examples/Capture.jpg" width="600" alt="Example 1"></td>
@@ -7,9 +8,9 @@
 </table>
 A desktop image preprocessing tool built with Python, Tkinter, and OpenCV. Load an image, apply various filters and transformations, and save the result.
 
-![Python](https://img.shields.io/badge/python-3.10+-blue) ![OpenCV](https://img.shields.io/badge/opencv-4.x-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
+
 
 ## Features
 
@@ -87,3 +88,4 @@ ComputerVision/
 - The app processes images in-memory, so your original file is never modified unless you explicitly save
 - Adaptive threshold block size is always kept odd (the slider enforces this automatically)
 - Edge detection outputs are grayscale — applying color operations afterward will work fine since the app handles the conversion internally
+
