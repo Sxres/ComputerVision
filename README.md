@@ -38,8 +38,8 @@ pip install uv
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/Sxres/ComputerVision.git
-cd ComputerVision
+git clone https://github.com/Sxres/ImageProcessor.git
+cd ImageProcessor
 uv sync
 ```
 
@@ -88,4 +88,5 @@ ComputerVision/
 - The app processes images in-memory, so your original file is never modified unless you explicitly save
 - Adaptive threshold block size is always kept odd (the slider enforces this automatically)
 - Edge detection outputs are grayscale — applying color operations afterward will work fine since the app handles the conversion internally
+
 
